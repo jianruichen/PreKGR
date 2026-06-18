@@ -9,7 +9,7 @@ Our implementation is based on official codes of [PSAgent](https://github.com/ru
 conda install --yes --file requirements.txt
 ```
 ### Train models
-Then the following commands can be used to train the proposed models and baselines in the paper. By default, dev set evaluation results will be printed when training terminates.
+Then the following commands can be used to train the proposed models in the paper. By default, dev set evaluation results will be printed when training terminates.
 
 ```
 ./experiment-rs.sh configs/<dataset>-conf.sh --train <gpu-ID>
